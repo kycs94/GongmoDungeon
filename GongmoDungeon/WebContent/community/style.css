@@ -1,0 +1,68 @@
+<style type="text/css"> 
+/*커뮤니티부분*/
+.commu{
+	display: inline-flex;
+	width: 1190px;
+	height: 100%;
+}
+.commuSideMenu{
+	position: relative;
+	display: inline-flex;
+	width: 230px;
+	height: 900px;
+	/*background-color: red;*/
+}
+.commuMain{
+	position: relative;
+	display: inline-flex;
+	flex-direction: column;
+	width: 950px;
+	min-height: 900px;
+	/*background-color: green;*/
+}
+
+.commuSideMenu .menu .hide{
+	display: none;
+	/*visibility: hidden;*/
+}
+
+.commuSideMenu .menu span{
+	cursor: pointer;
+}
+
+.vdToggle{
+	display: block !important;
+	visibility: visible !important;
+}
+
+.vdtToggle{
+	display: table-row !important;
+	visibility: visible !important;
+}
+
+.allCommuList {
+    width: 100%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+}
+.allCommuList th td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+}
+
+.gongmoWriteTable{
+	width : 100%;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.commcomm{
+	display: none;
+	visibility: hidden;
+}
+
+
+
+</style>

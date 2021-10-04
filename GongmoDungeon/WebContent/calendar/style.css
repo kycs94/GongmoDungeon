@@ -1,0 +1,55 @@
+.wrap{
+	min-width: 1190px;
+}
+.header{
+	position: relative;
+	min-width: 1190px;
+	height: 220px;
+	margin: 0 auto;
+	text-align: center;
+}
+.category{
+	position: relative;
+	height: 80px;
+	min-width: 1190px;
+	text-align: center;
+}
+.container{
+	position: relative;
+	/*background-color: yellow;*/
+	width: 1190px;
+	height: auto;
+	margin: 0 auto;
+}
+.footer{
+	position: relative;
+	/*background-color: red;*/
+	min-width: 1190px;
+	height: 200px;
+	text-align: center;
+}
+.footer .member{
+	margin: 0px 10px;
+}
+.footer .info{
+	margin: 30px 0px;
+}
+.content{
+	display: inline-block;
+	width: 1190px;
+	height: 100%;
+}
+
+/*공동 스타일*/
+.tb-color-1{
+	border-top: 1px solid #F4F4F4;
+}
+.bb-color-1{
+	border-bottom: 1px solid #F4F4F4;
+}
+.lb-color-1{
+	border-left: 1px solid #F4F4F4;
+}
+.rb-color-1{
+	border-right: 1px solid #F4F4F4;
+}
